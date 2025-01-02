@@ -14,7 +14,7 @@ pub trait ControlFlowExt {
     /// The break type of [`ControlFlow`]
     type B;
 
-    /// The continue type
+    /// The continue type of [`ControlFlow`]
     type C;
 
     /// Calls a function with a reference to the contained value if [`Break`].
