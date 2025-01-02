@@ -10,6 +10,7 @@
 
 use core::ops::ControlFlow;
 
+/// Extension trait for [`ControlFlow`]
 pub trait ControlFlowExt {
     /// The break type of [`ControlFlow`]
     type B;
