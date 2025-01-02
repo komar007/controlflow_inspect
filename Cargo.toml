@@ -1,0 +1,18 @@
+[package]
+name = "controlflow_inspect"
+description = "inspect_* methods for ControlFlow"
+authors = ["Michał Trybus <komar007@gmail.com>"]
+license = "MIT OR Apache-2.0"
+
+repository = "https://github.com/komar007/controlflow_inspect"
+readme = "README.md"
+documentation = "https://docs.rs/controlflow_inspect"
+
+categories = ["rust-patterns", "no-std"]
+keywords = ["control-flow"]
+
+version = "1.0.0"
+edition = "2018"
+
+[package.metadata]
+msrv = "1.55.0"
